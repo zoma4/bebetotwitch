@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 
 
-client.login("Token");
+client.login("MzA2OTE3NjEzMTUyMjM5NjE2.DxKQuA.jEoCQvLInoU0Jk1m4QZ5e7sYuOg");
 
 
 
@@ -24,7 +24,7 @@ client.user.setStatus("dnd");
 
 
 
-const devs = ["id"];
+const devs = ["306917613152239616"];
 const adminprefix = ["-"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -47,7 +47,7 @@ client.on('message', message => {
   } else 
   if (message.content.startsWith('-st')) {
     client.user.setGame(argresult, "https://www.twitch.tv/idk");
-      message.channel.send(`**Done**`)
+      message.channel.send(`**DoneByCondor**`)
   }
   if (message.content.startsWith('-setname')) {
   client.user.setUsername(argresult).then
